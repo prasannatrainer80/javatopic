@@ -64,9 +64,15 @@ ____________________
 
 2) Java Class : Java code after compilation its converted into bytecode, then .class file will be created.
 
-3) JVM
+3) JVM (Java Virtual Machine) 
 
-4) Java API : It provides runtime env, that which allows you to run the java programs. 
+	-> Class Loader
+
+	-> JIT Compiler
+
+	-> Execution Manager
+
+4) Java API : It provides runtime env, that which allows you to run the java programs. (JDK/JRE) 
 
 
 
