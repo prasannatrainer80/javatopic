@@ -74,6 +74,11 @@ ____________________
 
 4) Java API : It provides runtime env, that which allows you to run the java programs. (JDK/JRE) 
 
+System.out.println() : Used to print any value or message
+	
+	System -> class
+	out -> Console
+	println() -> Method. 
 
 
 
