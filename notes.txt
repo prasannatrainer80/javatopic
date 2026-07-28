@@ -57,7 +57,16 @@ _________________
 
 6) Distributed : By using java, we can make any distributed or robust applications.
 
+Java Architecture : 
+____________________
 
+1) Java Program : Java code that which stored with extension .java
+
+2) Java Class : Java code after compilation its converted into bytecode, then .class file will be created.
+
+3) JVM
+
+4) Java API : It provides runtime env, that which allows you to run the java programs. 
 
 
 
