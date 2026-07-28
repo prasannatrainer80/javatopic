@@ -42,14 +42,20 @@ _________
 Java Features : 
 _________________
 
-1) Simple : Java uses simple C/C++ syntaxes, as a progamminer no need to take care of internal details like memory management etc... as how much memory allocated to run the program, same amount of memory will be reallocated automatically. 
+1) Simple : Java uses simple C/C++ syntaxes, as a programmer no need to take care of internal details like memory management etc... as how much memory allocated to run the program, same amount of memory will be reallocated automatically. 
 
+2) Object Oriented : Java Supports all oops features.
 
-2) Object Oriented
-3) Compiled and Interpreted
-4) Portable
-5) Securable
-6) Distributed
+3) Compiled and Interpreted : Java programs are compiled first, during compilation java code will be converted into bytecode, then .class file will be created, in interpretation it reads the bytecode line by line and executes. 
+
+4) Portable : Ability to run the program without changing the source code, java programs are programs that can run on any env, without changing the source code.
+
+5) Securable : Java supports various levels of security as
+	-> Compiler Level
+	-> Bytecode Level
+	-> Class-Loader Level
+
+6) Distributed : By using java, we can make any distributed or robust applications.
 
 
 
