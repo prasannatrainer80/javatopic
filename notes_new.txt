@@ -36,6 +36,29 @@ hasMoreElements() methods, if hasMoreElements() returns true, then it moves to n
 
 It repeats as soon as hasMoreElements() returns true. 
 
+public class Quiz1 {
+	
+	public static void main(String[] args) {
+		String str = "Hello ";
+		str.concat("World");
+		System.out.println(str);
+	}
+}
+
+
+For above code we get output as Hello as, strings are immutable as once assigned we cannot alter the value by using any string methods. 
+
+The default package in java is lang, full form as java.lang
+
+The top level class in java is Object, the full form is java.lang.Object
+
+You can create an object to the class, as
+
+class_name obj = new class_name();
+
+
+
+
 
 
 
