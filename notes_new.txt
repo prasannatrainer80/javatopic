@@ -1,0 +1,28 @@
+do...while Loop : This loop executes all the statement(s) repeatedly until the condition remains true, if the condition remains false, then it comes out of the loop. 
+
+syntax : 
+
+do {
+  statement(s);
+}while(condition);
+
+Min. execution of while loop is zero times
+
+Min. Execution of do...while is one time.
+
+
+Arrays : An array is the finite ordered set of homogenous elements, means all the elements belongs to same data type. 
+
+All the elements of an array are stored in STACK order. 
+
+All elements of array are stored in successive memory locations. 
+
+int[] a = new int[4]{1,5,22,41] means
+
+a[0]=1
+a[1]=5
+a[2]=22
+a[3]=41
+
+
+
