@@ -7,6 +7,6 @@ public class LoopEx3 {
 		do {
 			System.out.println("Welcome to Java Programming...");
 			i++;
-		} while(i <= count);
+		} while(i < count);
 	}
 }
