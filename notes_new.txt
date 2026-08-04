@@ -24,5 +24,18 @@ a[1]=5
 a[2]=22
 a[3]=41
 
+for (int i : a) {
+			System.out.println(i);
+		}
+
+How internally foreach loop will work :
+
+(I) In above code, at first var i points to the first element in array A, after processing first element it checks next element is there or not by using
+
+hasMoreElements() methods, if hasMoreElements() returns true, then it moves to next element using nextElement(). 
+
+It repeats as soon as hasMoreElements() returns true. 
+
+
 
 
