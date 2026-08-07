@@ -34,4 +34,33 @@ Object class has various methods as
 
 toString() -> Contains the string representation, will be called automatically once you print the object. 
 
+static variables : These are the variables, that which retains values irrespective of type of objects. static variables are class variables. 
+
+Inheritance : The concept of deriving a new class from already existing class known as inheritance, the class which derived known as derived class, the class from which its derived known as base class. Through inheritance, we can reduce the size of the program. 
+
+class First {
+...
+...
+...
+}
+
+class Second extends First {
+...
+...
+...
+}
+
+Once you create an object to Second class, you can access public/protected and friendly members  
+
+
+
+
+
+
+
+
+
+
+
+
 
