@@ -1,0 +1,37 @@
+Method Overloading : The concept of using the same method name w.r.t. different data types and different parameters known as method overloading, here the method name must be same, but no.of parameters and type of parameters we are using here are different.
+
+class Hello {
+   int a,b;
+   a = 5;
+   b = 7;
+}
+
+A constructor is a special member, which used to initialize the member variables of the class, it is special because it has the same name as that of class name. 
+
+Rules :
+________
+
+	-> It will not contains any return type
+
+	-> It will not return any value
+
+	-> It will be invoked automatically once the instance of the class
+		created
+
+	-> A constructor can be overloaded. 
+
+There are 2 types of constructors known as
+
+(i) static constructor : These are called class constructors, which are used to initialize the static variables of the class, these constructors are invoked automatically before control reaches entry point. In java static {} acts as static constructor
+
+(ii) instance constructor : These are the constructors that which are invoked automatically once the instance of the class created. These constructors can be overloaded.
+
+The top level class in java, is Object, the full form is 
+
+java.lang.Object
+
+Object class has various methods as 
+
+toString() -> Contains the string representation, will be called automatically once you print the object. 
+
+
