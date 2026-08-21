@@ -1,0 +1,8 @@
+Collections : Arrays are static data structures, as once assigned we cannot alter the size. But, if you want to enter elements irrespective of size, then we need the help of collections.
+
+Collections can grow to any size unlike arrays. 
+
+Collections store data in Object format.
+
+Collections are from util package. 
+
