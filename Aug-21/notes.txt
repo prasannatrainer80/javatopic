@@ -6,3 +6,12 @@ Collections store data in Object format.
 
 Collections are from util package. 
 
+https://github.com/prasannatrainer80/javatopic
+
+In Collections, we have top 3 interfaces as 
+
+1) List : Allows you to store any list of values. ArrayList, Vector, LinkedList etc are falling under List interface.
+
+2) Set
+
+3) SortedSet 
