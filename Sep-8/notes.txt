@@ -1,0 +1,16 @@
+Generics : Allows you pass data types at runtime. If you want to make any method as write once and apply any type, then we need the help of generics. 
+
+Advantages : 
+_____________
+
+1) Write Once and apply for all types
+
+2) No Typecasting required
+
+3) Reduces the size of the code
+
+4) Provides security to the data. 
+
+
+Generics will be defined in <T>, as in place of <T> we can pass any value type or refernece type or custom type. 
+
