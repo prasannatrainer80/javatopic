@@ -14,3 +14,14 @@ _____________
 
 Generics will be defined in <T>, as in place of <T> we can pass any value type or refernece type or custom type. 
 
+https://github.com/prasannatrainer80/javatopic
+
+
+Lambda Expressions used to write any clear and concise code. 
+
+for lambda expressions, we need to use () -> { .... }
+
+
+
+
+
