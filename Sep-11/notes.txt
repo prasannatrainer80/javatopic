@@ -60,6 +60,56 @@ Employee(Empno,Name,Gender,Deptno,Salary,AadharNo,SalaryDate)
 
 (v) Foreign Key : Primary key in the parent table will be foreign key in the child table. 
 
+https://github.com/prasannatrainer80/javatopic
+
+-- Display databases in mysql 
+
+show databases;
+
+-- move to CRT database 
+
+use crt;
+
+-- Display list of tables in database
+
+show tables;
+
+-- Display info about Emp table
+
+Desc Emp;
+
+-- Display inf about Dept table 
+
+Desc Dept;
+
+-- Display all records from Emp table 
+
+select * from Emp;
+
+-- Display all records from Dept table 
+
+select * from Dept;
+
+-- Display Empno, ename, job, sal, mgr from Emp table 
+
+select empno, ename, job, sal, mgr from Emp;
+
+-- Where clause : Used to display filtered records. 
+
+-- Display info whose empno = 7639;
+
+select * from Emp where empno=7369;
+
+-- Display info whose job is 'MANAGER'
+
+select * from Emp where job = 'MANAGER';
+
+-- between...AND : used to display values from start to end
+
+select * from Emp where sal between 1000 and 2000;
+
+select * from Emp where sal not between 1000 and 2000;
+
 
 
 
