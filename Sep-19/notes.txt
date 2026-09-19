@@ -1,0 +1,44 @@
+Exception Handling : It is a mechanism of handling the runtime errors, during the execution of program. 
+
+There are 2 types of errors known as 
+
+	(i) Compile Time
+
+	(ii) Runtime 
+
+Runtime errors occurs, during runtime if we pass invalid values, the type of errors we are getting known as Exceptions. 
+
+To handle errors, we have 3 blocks as
+
+1) try block : This block contains statement(s) in which there is possibility of getting runtime errors, the statements which placed in this block are treated as heavy weighted statement(s) as JVM allocates excess memory to them. 
+
+2) catch block : Once exception raised in try block, then the control will be forwared to catch block, this block contains alternate statements for exceptions raised in try block. 
+
+One try block contains multiple catch blocks. 
+
+3) finally block : This block contains statement(s) that needs to be executed mandetorily irrespective of try and catch blocks, this block is not mandetory, but all the statements which placed in this block are executed as mandetory statements. 
+
+Exception is the top most block from which all kinds of exceptions are derived. 
+
+There are 2 types of exceptions known as
+
+(i) Checked Exceptions : These are the exceptions that which occurs at compile time, during that jvm feels some erroneous code is there and stops the execution at compile time, can be handled by using throws keyword at method level.
+
+(ii) Unchecked Exceptions : These exceptions to be handled by using try...catch block. 
+
+System exception are inadequate to handle in all situations, to overcome this we need the help of custom exceptions, any class that which derived from Exception class can be treated as custom exception. 
+
+public class CustomException extends Exception {
+    public CustomException(String error) {
+	super(error);
+    }
+}
+
+create a class exception to check a person elligible for voting. 
+
+
+
+
+
+
+
