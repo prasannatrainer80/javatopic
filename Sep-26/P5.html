@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script>
+		function sum() {
+			var firstNo, secondNo, result;
+			firstNo=parseInt(frmCalc.firstNo.value);
+			secondNo = parseInt(frmCalc.secondNo.value);
+			result = firstNo + secondNo;
+			frmCalc.result.value=result;
+		}
+		function sub() {
+			var firstNo, secondNo, result;
+			firstNo=parseInt(frmCalc.firstNo.value);
+			secondNo = parseInt(frmCalc.secondNo.value);
+			result = firstNo - secondNo;
+			frmCalc.result.value=result;
+		}
+		function mult() {
+			var firstNo, secondNo, result;
+			firstNo=parseInt(frmCalc.firstNo.value);
+			secondNo = parseInt(frmCalc.secondNo.value);
+			result = firstNo * secondNo;
+			frmCalc.result.value=result;
+		}
+	</script>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form name="frmCalc">
+	<center>
+		First Number : 
+		<input type="number" name="firstNo" /> <br/><br/>
+		Second Number : 
+		<input type="number" name="secondNo" /> <br/><br/>
+		Result : 
+		<input type="number" name="result" /> <br/><br/>
+		<input type="button" value="Sum" onclick="sum()" /> 
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="button" value="Sub" onclick="sub()" /> 
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="button" value="Mult" onclick="mult()" /> 
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	</center>
+</form>
+</body>
+</html>

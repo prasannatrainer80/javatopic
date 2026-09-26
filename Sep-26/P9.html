@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+	function show() {
+		var result = "";
+		if (frmAttendance.chkRizwan.checked==true) {
+			result+="Rizwan is Present...<br/>".fontcolor("green");
+		} else {
+			result+="Rizwan is Absent...<br/>".fontcolor("red");
+		}
+		
+		if (frmAttendance.chkMani.checked==true) {
+			result+="Mani is Present...<br/>".fontcolor("green");
+		} else {
+			result+="Mani is Absent...<br/>".fontcolor("red");
+		}
+		
+		if (frmAttendance.chkCharan.checked==true) {
+			result+="Charan is Present...<br/>".fontcolor("green");
+		} else {
+			result+="Charan is Absent...<br/>".fontcolor("red");
+		}
+		document.getElementById("result").innerHTML=result;
+	}
+</script>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form name="frmAttendance">
+		<center>
+		 	Rizwan : 
+		 	<input type="checkbox" name="chkRizwan" onchange="show()" /> 
+		 	<br/><br/>
+		 	Manikanth : 
+		 	<input type="checkBox" name="chkMani" onchange="show()" />
+		 	<br/><br/>
+		 	Charan : 
+		 	<input type="checkbox" name="chkCharan" onchange="show()" />
+		 	<br/><br/><hr/> 
+		 	<span id="result"></span>
+		</center>
+	</form>
+</body>
+</html>
