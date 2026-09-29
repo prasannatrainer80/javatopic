@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .content {
+            animation: growText 5s;
+            animation-iteration-count:infinite;
+            color: blue;
+            font-family: Arial;
+            font-size: 20px;
+        }
+
+        @keyframes growText {
+            0% {
+                font-size: 20px;
+                opacity: 0;
+            }
+
+            50% {
+                font-size: 50px;
+                opacity: 0.5;
+            }
+
+            100% {
+                font-size: 80px;
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <p>Hi I am Thrisha</p>
+    </div>
+</body>
+</html>
