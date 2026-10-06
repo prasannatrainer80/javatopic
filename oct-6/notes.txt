@@ -1,0 +1,178 @@
+Absolutely. Here is a structured Spring Boot notes guide with important annotations, suitable for learning, interviews, and training.
+
+Spring Boot Notes with Annotations
+1. What is Spring Boot?
+
+Spring Boot is a framework built on top of the Spring Framework that simplifies the development of Java applications, especially REST APIs and microservices.
+
+Advantages
+Auto-configuration
+Embedded servers such as Tomcat
+Starter dependencies
+Production-ready features
+Easy REST API development
+Minimal XML configuration
+Dependency Injection
+Actuator for monitoring
+2. Creating a Spring Boot Project
+
+A typical project structure:
+
+springboot-demo
+│
+├── src/main/java
+│   └── com.example.demo
+│       ├── DemoApplication.java
+│       ├── controller
+│       ├── service
+│       ├── repository
+│       ├── entity
+│       └── dto
+│
+├── src/main/resources
+│   ├── application.properties
+│   └── static/
+│
+└── pom.xml
+3. Main Spring Boot Annotation
+@SpringBootApplication
+
+This is the main annotation used in a Spring Boot application.
+
+@SpringBootApplication
+public class DemoApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(DemoApplication.class, args);
+    }
+}
+
+It combines three annotations:
+
+@Configuration
+@EnableAutoConfiguration
+@ComponentScan
+Meaning
+Annotation	Purpose
+@Configuration	Defines configuration class
+@EnableAutoConfiguration	Enables Spring Boot auto-configuration
+@ComponentScan	Scans Spring components
+4. Dependency Injection
+
+Dependency Injection means Spring creates and provides required objects instead of the programmer manually creating them.
+
+Without Spring
+EmployeeService service = new EmployeeService();
+With Spring
+@Autowired
+private EmployeeService service;
+5. Important Stereotype Annotations
+@Component
+
+Generic Spring-managed component.
+
+@Component
+public class EmailService {
+
+    public void sendEmail() {
+        System.out.println("Email sent");
+    }
+}
+@Service
+
+Used mainly for business logic.
+
+@Service
+public class EmployeeService {
+
+    public String getEmployee() {
+        return "Employee";
+    }
+}
+@Repository
+
+Used for database/repository operations.
+
+@Repository
+public class EmployeeRepository {
+}
+@Controller
+
+Used for MVC controllers.
+
+@Controller
+public class HomeController {
+
+    @GetMapping("/")
+    public String home() {
+        return "home";
+    }
+}
+@RestController
+
+Used to create REST APIs.
+
+@RestController
+public class EmployeeController {
+
+    @GetMapping("/employees")
+    public String getEmployees() {
+        return "Employee List";
+    }
+}
+
+@RestController effectively combines:
+
+@Controller
+@ResponseBody
+6. REST API Annotations
+@RequestMapping
+
+Maps HTTP requests to controller methods/classes.
+
+@RequestMapping("/employees")
+@RestController
+public class EmployeeController {
+}
+@GetMapping
+
+Used for HTTP GET.
+
+@GetMapping("/employees")
+public String getEmployees() {
+    return "All Employees";
+}
+@PostMapping
+
+Used to create data.
+
+@PostMapping("/employees")
+public String addEmployee() {
+    return "Employee Added";
+}
+@PutMapping
+
+Used to update data.
+
+@PutMapping("/employees/{id}")
+public String updateEmployee(@PathVariable int id) {
+    return "Employee Updated";
+}
+@DeleteMapping
+
+Used to delete data.
+
+@DeleteMapping("/employees/{id}")
+public String deleteEmployee(@PathVariable int id) {
+    return "Employee Deleted";
+}
+7. Request Parameters
+@PathVariable
+
+Used to retrieve a value from the URL path.
+
+@GetMapping("/employees/{id}")
+public String getEmployee(@PathVariable int id) {
+
+    return "Employee ID: " + id;
+}

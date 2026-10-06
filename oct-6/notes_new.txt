@@ -1,0 +1,20 @@
+Webservices contains webmethods, that can be called across various programming langauges, if you want to make any method as write once and call from any programming langauges, then we need the help of webservices. 
+
+Restful Webservices : 
+
+Representational State Transfer used to process data in terms of JSON format. 
+
+It contains 4 http verbs known as 
+
+1) GET : Used to extract data from the service. 
+
+2) POST : Used to add data to service
+
+3) PUT : Used for update opeation.
+
+4) DELETE : Used for delete operation.
+
+In Java, we can create restful webservices using spring boot.
+
+
+
