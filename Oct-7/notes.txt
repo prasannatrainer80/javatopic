@@ -1,0 +1,18 @@
+https://github.com/prasannatrainer80/javatopic
+
+There are various annotations in this are
+
+@RestController -> Used to define controller class.
+
+@GetMapping -> For GET HTTP Operation
+
+@PutMapping -> For Update HTTP Operation
+
+@PostMapping -> For Insert HTTP Operation.
+
+@DeleteMapping -> For Delete HTTP Operation. 
+
+
+@PathVariable : Used to pass values from URL.
+
+http://localhost:8080/swagger-ui/index.html
