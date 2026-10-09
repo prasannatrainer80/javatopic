@@ -52,11 +52,14 @@ It combines three annotations:
 @Configuration
 @EnableAutoConfiguration
 @ComponentScan
+
 Meaning
 Annotation	Purpose
+
 @Configuration	Defines configuration class
 @EnableAutoConfiguration	Enables Spring Boot auto-configuration
 @ComponentScan	Scans Spring components
+
 4. Dependency Injection
 
 Dependency Injection means Spring creates and provides required objects instead of the programmer manually creating them.
