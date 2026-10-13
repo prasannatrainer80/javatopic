@@ -1,0 +1,7 @@
+Spring Boot DevTools
+Spring Data Jpa
+MYSQL Driver
+Spring Web
+SpringDoc OpenAPI
+
+http://localhost:8282/swagger-ui/index.html
